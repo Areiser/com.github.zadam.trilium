@@ -10,7 +10,7 @@ command: trilium
 separate-locales: false
 finish-args:
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
   - --device=dri
   - --socket=pulseaudio
   - --share=network
